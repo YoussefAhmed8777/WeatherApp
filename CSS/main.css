@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #1E202B;
+}
+
+.navbar .content {
+  color: #fff;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-item{
+  border: 0px solid #009AD8;
+  border-radius: 20px;
+  transition: all 0.1s;
+}
+
+.nav-item:hover{
+  border: 1px solid #009AD8;
+}
+
+.nav-item:hover .nav-link {
+  color: #009AD8;
+}
+
+#home {
+  height: 50vh;
+  background-attachment: scroll;
+  background-image: url(../imgs/banner.png);
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.button {
+  top: 25px;
+  right: 20px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #1E202B;
+  background-clip: padding-box;
+  color: #fff;
+  border: none;
+  transition: none;
+}
+
+.form-control:focus {
+  color: #fff;
+  background-color: #1E202B;
+  box-shadow: none;
+}
+
+#cards {
+  height: 50vh;
+  background-color: #1E202B;
+}
+
+#footer {
+  height: 30vh;
+  background-color: #262936;
+
+  .button-2{
+    top: 57px;
+    right: 55px;
+  }
+
+  .social-links ul li i{
+    color: #009AD8;
+  }
+}
