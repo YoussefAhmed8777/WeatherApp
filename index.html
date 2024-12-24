@@ -57,7 +57,7 @@
         <div class="col-md-8 m-auto">
           <div class="content">
             <div class="search my-5 py-3 position-relative">
-              <input type="text" class="form-control rounded-pill py-3 px-4" placeholder="Find your location">
+              <input type="text" class="form-control rounded-pill py-3 px-4" placeholder="Find your location" id="findLocation">
               <button type="button" class="btn button px-5 btn-primary rounded-pill position-absolute">Find</button>
             </div>
           </div>
@@ -69,10 +69,24 @@
   <section id="cards">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 m-auto">
-          <div class="cards-content">
-
+        <div class="col-lg-4 col-md-6 p-0 mb-4 card-days">
+          <div class="cards-content p-4 rounded-3 text-white h-100">
+            <div class="d-flex justify-content-between mb-2">
+              <div id="todayName">Tuesday</div>
+              <div id="todayDate">24 December</div>
+            </div>
+            <div id="location">Cairo</div>
+            <div class="fs-1"><span id="todayTemp">15.3</span><sup>o</sup>C</div>
           </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-0 mb-4 card-days">
+        </div>
+        <div class="col-lg-4 col-md-6 p-0 mb-4 card-days">
+          <!-- <div class="cards-content p-4 rounded-3 text-white text-center h-100">
+            <div class="day">Tuesday</div>
+            <div class="fs-1">15.3<sup>o</sup>C</div>
+            <div class="text-primary">Partly Cloud</div>
+          </div> -->
         </div>
       </div>
     </div>
